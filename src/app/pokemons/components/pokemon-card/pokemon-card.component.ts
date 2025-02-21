@@ -21,8 +21,7 @@ export class PokemonCardComponent {
 
   public readonly pokemonImage = computed(
     () =>
-      `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${
-        this.pokemon().id
+      `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${this.pokemon().id
       }.png`
   );
 
